@@ -1,0 +1,76 @@
+
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is a map of online taxi that you can see it here">
+    <meta name="keywords" content="taxi, online, taxi online, car, ">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="bootstrap.rtl.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Mashhad_Uber</title>
+</head>
+<body>
+  <!-- navbar -->
+<div class="container_fluid">
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <h1 class="navbar-brand chang-color" href="#"> مشهد اوبر </h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+           <button class="rounded-pill nnn  " > <a class="nav-link active" aria-current="page" href="#">همکاری با ما </a></button>
+          </li>
+          <li class="nav-item">
+           <button class="rounded-pill nnn"> <a class="nav-link" href="#">پشتیبانی</a></button>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" role="button">
+              
+            </a>
+           
+          </li>
+          <li class="nav-item">
+<button class="rounded-pill nnn"><a class="nav-link" href="#">صدای مشتری</a></button></li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2 w_50 my-1 mt-1 rounded-pill" type="search" placeholder="چی می خوایی" aria-label="Search">
+          <button class="btn btn-outline-warning mx-2 my-1 mt-1 rounded-pill" type="submit">بگرد</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<div class="ttt alert-warning" role="alert" id="massage"> بگو کجایی بیام دنبالت</div>
+
+<div id="googleMap" style="width:100%;height:400px;"></div>
+<div id="">
+<!-- <h2 style="text-align: center;">موقعیت مبدا</h2> -->
+<p id="lat_start"></p>
+<p id="lng_start"></p>
+
+<!-- <h2 style="text-align: center;display: none;" id="kkkkk">موقعیت مقصد</h2> -->
+<p id="lat_end"></p>
+<p id="lng_end"></p>
+
+<!-- <h3 id="showdis">فاصله مبدا و مقصد</h3> -->
+<p id="distance"></p>
+
+<!-- <h3 id="showpri">هزینه سفر شما</h3> -->
+<p id="price"></p>
+<div class="pricing container-fluid bg-body-danger">
+
+<button onclick=" shownotification();">thsrfthsrftb</button>
+
+</div></div>
+<script src="notification.js"></script>
+<script src="javascript.js">
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzWoesziBHdpAeWIGUQoaBBK4cazNwL2s&callback=myMap"></script>
+</body>
+</html>

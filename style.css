@@ -1,0 +1,19 @@
+*{
+    text-align: center;
+    font-size: large;
+}
+.nnn{
+    border:none;
+ background-color:#f8f8f8;
+
+}
+.nnn:hover{
+    background-color: rgb(255, 253, 148) !important;
+color: white !important;
+    transition: 0.4s;
+}
+.ttt{
+    background-color: rgb(249, 255, 159);
+    margin: 0px;
+    padding: 2%;
+}
