@@ -16,12 +16,12 @@ In today's world, speed is everything. This web application uses Google Maps to 
 
 <h3>Tech 🚀</h3>
 
-<a>
+<p>
 <img  src="https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5" >
 <img  src="https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6" >
 <img  src="https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript" >
 <img  src="https://img.shields.io/badge/-Bootstrap-333333?style=flat&logo=bootstrap" >
-</a>
+</p>
 
 
 <h3>See Some image(s) 📸</h3>
